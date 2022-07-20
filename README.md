@@ -61,7 +61,9 @@
 </div>
 <h1 data-number="1" id="change-log"><span class="header-section-number">1</span> Change Log<a href="#change-log" class="self-link"></a></h1>
 
-- **2022-07-10**: Initial Release
+- **2022-07-11**: Fixed a typo in <code> insert_edge </code> (see <a href="https://edstem.org/au/courses/8629/discussion/935897"> this post for details</a>)
+- **2022-07-14**: Clarified gdwg.internal (see <a href="https://edstem.org/au/courses/8629/discussion/933929"> this post for details</a>)
+- **2022-07-11**: Initial Release
 
 <h1 data-number="2" id="the-task"><span class="header-section-number">2</span> The Task<a href="#the-task" class="self-link"></a></h1>
 <p>Write a <code class="sourceCode default">graph</code> library type in C++, in <code class="sourceCode default">include/gdwg/graph.hpp</code>.</p>
@@ -175,7 +177,7 @@
 <ol start="4" type="1">
 <li><p><em>Effects</em>: Adds a new edge representing <code class="sourceCode default">src</code> → <code class="sourceCode default">dst</code> with weight <code class="sourceCode default">weight</code>, if, and only if, there is no edge equivalent to <code class="sourceCode default">value_type{src, dst, weight}</code> already stored. [<em>Note</em>:⁠ Nodes are allowed to be connected to themselves. —<em>end note</em>]</p></li>
 <li><p><em>Postconditions</em>: All iterators are invalidated.</p></li>
-<li><p><em>Returns</em>: <code class="sourceCode default">true</code> if the node is added to the graph and <code class="sourceCode default">false</code> otherwise.</p></li>
+<li><p><em>Returns</em>: <code class="sourceCode default">true</code> if the edge is added to the graph and <code class="sourceCode default">false</code> otherwise.</p></li>
 <li><p><em>Throws</em>: <code class="sourceCode default">std::runtime_error(&quot;Cannot call gdwg::graph&lt;N, E&gt;::insert_edge when either src or dst node does not exist&quot;)</code> if either of <code class="sourceCode default">is_node(src)</code> or <code class="sourceCode default">is_node(dst)</code> are <code class="sourceCode default">false</code>. [<em>Note</em>: Unlike Assignment 2, the exception message must be used verbatim. —<em>end note</em>]</p></li>
 </ol>
 <p><br /></p>
@@ -491,7 +493,7 @@ for (const auto& [from, to, weight] : v) {
 <p>Your graph is <strong>required</strong> to use smart pointers (<i>however</i> you please) to solve this problem.</p>
 <ol type="1">
 <li><p>For each node, you are only allowed to have one underlying resource (heap) stored in your graph for it. This means every <code> N</code> can only be stored once per graph instance.</p></li>
-<li><p>For each edge, you should avoid not using unnecessary additional memory wherever possible.</p></li>
+<li><p>For each edge, you should avoid using unnecessary additional memory wherever possible.</p></li>
 
 <li><p>[<em>Hint</em>: In your own implementation you’re likely to use some containers to store things, and depending on your implementation choice, somewhere in those containers you’ll likely use either <code class="sourceCode default">std::unique_ptr&lt;N&gt;</code> or <code class="sourceCode default">std::shared_ptr&lt;N&gt;</code> —<em>end hint</em>]</p></li>
 </ol>
