@@ -54,9 +54,6 @@
 <li><a href="#32-adding-more-tests"><span class="toc-section-number">3.2</span> Adding more tests<span></span></a></li>
 </ul></li>
 <li><a href="#4-marking-criteria"><span class="toc-section-number">4</span> Marking Criteria<span></span></a></li>
-<li><a href="#5-originality-of-work"><span class="toc-section-number">5</span><span></span></a></li>
-<li><a href="#6-submission"><span class="toc-section-number">6</span><span></span></a></li>
-<li><a href="#7-late-submission-policy"><span class="toc-section-number">7</span> Late Submission Policy<span></span></a></li>
 </ul>
 </div>
 <h1 data-number="1" id="change-log"><span class="header-section-number">1</span> Change Log<a href="#change-log" class="self-link"></a></h1>
