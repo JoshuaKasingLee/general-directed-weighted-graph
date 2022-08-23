@@ -633,59 +633,8 @@ dozen if statements).
 
 <h1 data-number="5" id="originality-of-work"><span class="header-section-number">5</span> Originality of Work<a href="#originality-of-work" class="self-link"></a></h1>
 
-The work you submit must be your own work.  Submission of work partially or completely derived from
-any other person or jointly written with any other person is not permitted.
-
-The penalties for such an offence may include negative marks, automatic failure of the course and
-possibly other academic discipline. Assignment submissions will be examined both automatically and
-manually for such submissions.
-
-Relevant scholarship authorities will be informed if students holding scholarships are involved in
-an incident of plagiarism or other misconduct.
-
-Do not provide or show your assignment work to any other person &mdash; apart from the teaching
-staff of COMP6771.
-
-If you knowingly provide or show your assignment work to another person for any reason, and work
-derived from it is submitted, you may be penalized, even if the work was submitted without your
-knowledge or consent.  This may apply even if your work is submitted by a third party unknown to
-you.
-
-Note you will not be penalized if your work has the potential to be taken without your consent or
-knowledge.
-
-The following actions will result in a 0/100 mark for this assignment, and in some cases a 0 for
-COMP6771:
-
-* Knowingly providing your work to anyone and it is subsequently submitted (by anyone).
-* Submitting any other person's work. This includes joint work.
-
-The lecturer may vary the assessment scheme after inspecting
-the assignment submissions but it will remain broadly similar to the description above.
-
-<b>PLEASE NOTE: We have a record of ALL previous submissions of this assignment submitted. If you find a solution from a friend, or online, we will find it and you will receive 0 for the assignment and potentially 0 for the course.</b> Trust me, at least 1 person does it every term and I encourage you not to think you'll get lucky.
-
 <h1 data-number="6" id="submission"><span class="header-section-number">6</span> Submission<a href="#submission" class="self-link"></a></h1>
 
-
-This assignment is due *Monday 1st of August at 19:59:59 (Week 10)*.
-
-Our systems automatically record the most recent push you make to your master branch. Therefore,
-to "submit" your code you simply need to make sure that your master branch (on the gitlab website)
-is the code that you want marked for this task.
-
-It is your responsibiltiy to ensure that your code can be successfully demonstrated on the CSE machines (e.g. vlab)
-from a fresh clone of your repository. Failure to ensure this may result in a loss of marks.
-
-<h1 data-number="7" id="late-submission-policy"><span class="header-section-number">7</span> Late Submission Policy<a href="#late-submission-policy" class="self-link"></a></h1>
-
-If your assignment is submitted after this date, each hour it is late reduces the maximum mark it can achieve by 0.2% up to 120 hours late, after which it will receive 0.
-
-For example if an assignment you submitted with a raw awarded mark of 90% was submitted 5 hours late, the late submission would have no effect (as maximum mark would be 99%).
-
-If the same assignment was submitted 72 hours late it would be awarded 85%, the maximum mark it can achieve at that time.
-
-This late penalty has been amended from the original specification, and you should not assume it will be the same for future assignments.
 
 </div>
 </div>
