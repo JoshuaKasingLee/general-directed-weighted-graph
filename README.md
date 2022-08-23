@@ -555,8 +555,8 @@ public:
 <p>As noted in <a href="#29-compulsory-internal-representation-gdwginternal">the compulsory internal representation</a> section, you are unlikely to want to use this directly within your representation. However, it is used by the <code>iterator</code> type, and is good practice to have for a container.</P>
 <h1 data-number="3" id="getting-started"><span class="header-section-number">3</span> Getting Started<a href="#getting-started" class="self-link"></a></h1>
 <p>If you haven’t done so already, clone this repository.</p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode sh"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true"></a>$ <span class="fu">git</span> clone gitlab@gitlab.cse.unsw.edu.au:COMP6771/22T2/students/z5555555/ass3.git</span></code></pre></div>
-<p>(Note: Replace z5555555 with your zid)</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode sh"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true"></a>$ <span class="fu">git</span></span></code></pre></div>
+<p></p>
 <p>Navigate inside the directory. You can then open vscode with <code class="sourceCode default">code .</code> (note the dot).</p>
 <h2 data-number="3.1" id="running-your-tests"><span class="header-section-number">3.1</span> Running your tests<a href="#running-your-tests" class="self-link"></a></h2>
 <p>Similar to the first tutorial, you simply to have to run <code class="sourceCode default">Ctrl+Shift+P</code> and then type <code class="sourceCode default">Run Test</code> and hit enter. VS Code will compile and run all of your tests and produce an output.</p>
